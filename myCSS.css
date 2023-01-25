@@ -186,6 +186,7 @@ section{
     border-radius: 10px;
     margin: 20px;
     transition: 1s ease;
+    
 }
 
 .proj-card:hover{
@@ -194,7 +195,6 @@ section{
 
 .proj-img{
     width: 100%;
-
 }
 
 .proj-card:hover .proj-img{
@@ -203,6 +203,7 @@ section{
 
 .proj-info{
     padding: 1em;
+    
 }
 
 .proj-cat{
