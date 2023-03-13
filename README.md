@@ -20,3 +20,5 @@ git clone https://github.com/LaithJabali/portfolio.git
 2- CSS
 </p>
 
+<h2>Click here to view the deployment: <h2>
+  <p>https://laithjabali.github.io/portfolio/</p>
