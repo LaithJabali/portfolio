@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,8 +8,8 @@
     scroll-behavior: smooth;
 }
 
-header{
-    background-color: rgb(78,53,36);
+header {
+    background-color: rgb(78, 53, 36);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -19,56 +19,54 @@ header{
     padding: 10px 200px;
 }
 
-.myLogo{
+.myLogo {
     color: gold;
     text-decoration: none;
     font-size: 1.8em;
     font-weight: 685;
 }
 
-.navg a{
-color: gold;
-text-decoration: none;
-font-size: 1.1em;
-font-size: 485;
-padding-left: 25px;
+.navg a {
+    color: gold;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-size: 485;
+    padding-left: 25px;
 }
 
-.navg a:hover{
+.navg a:hover {
     color: rgb(142, 86, 194);
 }
-section{
+
+section {
     padding: 100px 200px;
 }
 
-.main{
+.main {
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* background: url(img/backg.jpg) no-repeat; */
     background-color: rgb(43, 43, 43);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.main h2{
+.main h2 {
     color: white;
     font-size: 1.4;
     font-weight: 500;
-
 }
-.main h2 span{
-    
+
+.main h2 span {
     color: blueviolet;
     font-size: 3em;
     font-weight: 600;
     display: inline-block;
-
 }
 
-.main h3{
+.main h3 {
     color: white;
     font-size: 2em;
     font-weight: 580;
@@ -77,7 +75,7 @@ section{
     margin-bottom: 25px;
 }
 
-.m-btn{
+.m-btn {
     color: white;
     background-color: blueviolet;
     text-decoration: none;
@@ -85,44 +83,40 @@ section{
     font-weight: 680;
     display: inline-block;
     padding: 0.9em 2.1em;
-    
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 35px;
     transition: 1s ease;
 }
 
-.m-btn:hover{
+.m-btn:hover {
     background-color: darkblue;
     transform: scale(1.2);
 }
 
-.s-platforms a{
-
+.s-platforms a {
     color: white;
     font-size: 1.655em;
     padding-left: 28px;
-
 }
 
-.page{
+.page {
     display: flex;
     justify-content: center;
     color: goldenrod;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
-
 }
 
-.p-content{
+.p-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.p-content2{
+.p-content2 {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -130,7 +124,7 @@ section{
     margin-top: 30px;
 }
 
-.p-card{
+.p-card {
     background-color: bisque;
     width: 90%;
     box-shadow: 0 5px 25px rgba(10, 10, 10, 20%);
@@ -141,28 +135,25 @@ section{
     margin-left: auto;
     margin-right: auto;
     transition: 1s ease;
-    border: 2px solid black ;
+    border: 2px solid black;
 }
 
-.p-card:hover{
+.p-card:hover {
     transform: scale(1.2);
 }
 
-
-
-.inform{
-    text-align: center;    
-
+.inform {
+    text-align: center;
 }
 
-.inform h3{
+.inform h3 {
     color: blueviolet;
     font-size: 1.5em;
     font-weight: 700;
     margin: 10px;
 }
 
-.inform h4{
+.inform h4 {
     color: black;
     font-size: 1.2em;
     font-weight: 700;
@@ -170,19 +161,18 @@ section{
     padding-bottom: 15px;
 }
 
-.inform p{
+.inform p {
     text-align: center;
     font-size: 17.5px;
     font-weight: 600;
     line-height: 35px;
 }
 
-.proj{
+.proj {
     background-color: rgb(43, 43, 43);
-   
 }
 
-.proj-card{
+.proj-card {
     background-color: bisque;
     border: 1px solid white;
     min-height: 14em;
@@ -191,94 +181,92 @@ section{
     border-radius: 10px;
     margin: 20px;
     transition: 1s ease;
-    
 }
 
-.proj-card:hover{
+.proj-card:hover {
     transform: scale(1.1);
 }
 
-.proj-img{
+.proj-img {
     width: 100%;
 }
 
-.proj-card:hover .proj-img{
+.proj-card:hover .proj-img {
     opacity: 0.85;
 }
 
-.proj-info{
+.proj-info {
     padding: 1em;
-    
 }
 
-.proj-cat{
+.proj-cat {
     font-size: 0.8em;
     color: black;
 }
 
-.proj-name{
+.proj-name {
     display: flex;
     justify-content: space-between;
     font-weight: 800;
     margin-top: 10px;
 }
 
-.githublink{
+.githublink {
     text-decoration: none;
     color: blueviolet;
 }
 
-.githublink:hover{
+.githublink:hover {
     color: blue;
 }
 
-.icone{
+.icone {
     color: blueviolet;
     font-size: 8em;
     text-align: center;
 }
 
-.h3c{
+.h3c {
     color: black;
 }
 
-.foot{
-    background-color: rgb(78,53,36);
+.foot {
+    background-color: rgb(78, 53, 36);
     color: white;
     padding: 2em;
     display: flex;
     justify-content: space-between;
 }
-.p-foot{
+
+.p-foot {
     font-size: 1.3em;
     font-weight: 600;
-    
 }
 
-.p-foot span{
+.p-foot span {
     color: gold;
 }
 
-.foot .s-platforms a{
+.foot .s-platforms a {
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
 
 @keyframes typeEffect {
     0% {
-      width: 0%;
+        width: 0%;
     }
     100% {
-      width: 120%;
+        width: 120%;
     }
-  }
-  
-  #animated-text {
+}
+
+#animated-text {
     overflow: hidden;
     white-space: nowrap;
-    animation: typeEffect 3s steps(17) infinite ;
-  }
-  .gold {
+    animation: typeEffect 3s steps(17) infinite;
+}
+
+.gold {
     color: blueviolet;
-  }
-  
+}
