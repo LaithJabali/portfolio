@@ -136,7 +136,10 @@ section{
     box-shadow: 0 5px 25px rgba(10, 10, 10, 20%);
     border-radius: 10px;
     padding: 25px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     transition: 1s ease;
     border: 2px solid black ;
 }
@@ -148,14 +151,13 @@ section{
 
 
 .inform{
-    text-align: center;
-    
-    
+    text-align: center;    
+
 }
 
 .inform h3{
     color: blueviolet;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 700;
     margin: 10px;
 }
@@ -170,6 +172,9 @@ section{
 
 .inform p{
     text-align: center;
+    font-size: 17.5px;
+    font-weight: 600;
+    line-height: 35px;
 }
 
 .proj{
@@ -259,3 +264,21 @@ section{
     padding: 0 12px 0 0;
 }
 
+@keyframes typeEffect {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 120%;
+    }
+  }
+  
+  #animated-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typeEffect 3s steps(17) infinite ;
+  }
+  .gold {
+    color: blueviolet;
+  }
+  
