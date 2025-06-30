@@ -55,7 +55,7 @@ section {
 
 .main h2 {
     color: white;
-    font-size: 1.4;
+    font-size: 1.4em;
     font-weight: 500;
 }
 
@@ -86,7 +86,8 @@ section {
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 35px;
-    transition: 1s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .m-btn:hover {
@@ -97,7 +98,7 @@ section {
 .s-platforms a {
     color: white;
     font-size: 1.655em;
-    padding-left: 28px;
+        margin-right: 58px;
 }
 
 .page {
@@ -124,6 +125,15 @@ section {
     margin-top: 30px;
 }
 
+.card {
+ min-height: 100vh;
+}
+
+.card-cont {
+ min-height: 85vh;
+  background-color: #1e1e1e;
+}
+
 .p-card {
     background-color: bisque;
     width: 90%;
@@ -134,7 +144,8 @@ section {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    transition: 1s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
     border: 2px solid black;
 }
 
@@ -169,7 +180,8 @@ section {
 }
 
 .proj {
-    background-color: rgb(43, 43, 43);
+    background-color: #1e1e1e;
+     min-height: 100vh;
 }
 
 .proj-card {
@@ -180,7 +192,8 @@ section {
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
-    transition: 1s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .proj-card:hover {
@@ -217,9 +230,9 @@ section {
 }
 
 .githublink:hover {
-    color: blue;
+    text-decoration: underline;
+    color: #007bff;
 }
-
 .icone {
     color: blueviolet;
     font-size: 8em;
